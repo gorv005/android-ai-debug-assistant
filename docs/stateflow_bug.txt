@@ -1,0 +1,8 @@
+Issue:
+Jetpack Compose screen not recomposing after StateFlow update.
+
+Cause:
+Same object reference emitted again.
+
+Resolution:
+Use immutable state and emit a new object instance.

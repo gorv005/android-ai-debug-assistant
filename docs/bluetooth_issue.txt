@@ -1,0 +1,8 @@
+Issue:
+Bluetooth scanner pairing failing on Android 14.
+
+Cause:
+Missing BLUETOOTH_CONNECT permission.
+
+Resolution:
+Request runtime Bluetooth permissions before pairing.

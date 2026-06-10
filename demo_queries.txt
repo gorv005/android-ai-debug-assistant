@@ -1,0 +1,15 @@
+Why is bluetooth pairing failing?
+
+Why is StateFlow not recomposing?
+
+Why is Compose UI lagging?
+
+Why are notifications delayed?
+
+Why is RecyclerView scrolling laggy?
+
+Why is app crashing on Android 14?
+
+Why is network request timing out?
+
+Why is Room database locking?

@@ -1,0 +1,8 @@
+Issue:
+Jetpack Compose LazyColumn lagging.
+
+Cause:
+Heavy recompositions and unstable item keys.
+
+Resolution:
+Use stable keys and reduce unnecessary recompositions
