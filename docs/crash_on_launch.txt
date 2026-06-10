@@ -1,0 +1,8 @@
+ssue:
+App crashing immediately on launch on Android 14.
+
+Cause:
+Missing exported=true in AndroidManifest activity declaration.
+
+Resolution:
+Add android:exported="true" for launcher activity in manifest.

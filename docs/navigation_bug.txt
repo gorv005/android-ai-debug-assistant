@@ -1,0 +1,8 @@
+Issue:
+Navigation component opening wrong screen after back press.
+
+Cause:
+Multiple navigation events triggered due to duplicate StateFlow collection.
+
+Resolution:
+Use collectLatest with lifecycleScope and avoid multiple collectors.

@@ -1,0 +1,8 @@
+Issue:
+Application memory increasing continuously after screen navigation.
+
+Cause:
+ViewModel holding Activity context reference causing memory leak.
+
+Resolution:
+Use applicationContext instead of Activity context and clear observers properly.

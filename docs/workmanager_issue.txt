@@ -1,0 +1,8 @@
+Issue:
+WorkManager background sync not running on some devices.
+
+Cause:
+Battery optimization restrictions stopping background tasks.
+
+Resolution:
+Request battery optimization exclusion and use foreground worker if required.
